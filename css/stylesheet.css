@@ -1,0 +1,103 @@
+body
+{
+    /*text-align: center;*/
+    margin: 5px;
+    font-weight: 800;
+    font-size: large;
+    background-color: rgb(255, 255, 255);/*undecided*/
+    font-family:sans-serif;
+}
+h1
+{
+    /*text-align: center;*/
+    font-size:300%;
+}
+h2{
+    /*text-align: center;*/
+    font-size: 230%;
+}
+h3{
+    font-size: 170%;
+    /*text-align: center;*/
+}
+h4
+{
+    /*text-align: center;*/
+    font-size: larger;
+}
+p
+{
+    /*text-align: center;*/
+    font-size: 170%;
+}
+ul{
+    
+    font-size: 170%;
+    list-style-position: inside;
+    
+}
+ol{
+    
+    font-size: 170%;
+    list-style-position: inside;
+    
+}
+#skylar{
+    color: rgb(255, 187, 0);
+}
+#mikaela{
+    color: rgb(233,113,50);
+}
+#amika
+{
+    color: rgb(255, 0, 102);
+}
+#fan
+{
+    color:rgb(204,0,153);
+}
+#hannah
+{
+    color: rgb(160,129,227);
+}
+/*nav ul
+{
+    list-style-type: none;
+    padding: 30px;
+    margin: 0;
+    border: 1 solid cadetblue;
+    background-color: cadetblue;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    width: 100%;
+}*/
+/*nav a
+{
+    color: aliceblue;
+    background-color: cadetblue;
+    text-decoration: none;
+    padding: 10 15px;
+    display: inline-block;
+    border-radius: backgrond-color 0.3s,color 0.3s;}
+    */
+/*nav a:hover{
+    color: cadetblue;
+    background-color: aliceblue;
+}*/
+ul li::before
+{
+    content: none;
+}
+nav ul li {
+    display: inline;
+    
+}
+nav ul li a{
+    padding: 15px 25px;
+    transition: background-color 0.3s ease;
+}
+#center{
+    text-align: center;
+}
+
+
